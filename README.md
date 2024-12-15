@@ -1,6 +1,4 @@
-# CSC591-Project-SecurityinLLMs
-
-## To the run the project
+# To the run the project
 
 Navigate to /project-code and run
 

@@ -1,0 +1,37 @@
+FROM mistral:instruct
+# FROM codellama
+TEMPLATE """[INST] {{ .System }} {{ .Prompt }} [/INST]"""
+PARAMETER stop "[INST]"
+PARAMETER stop "[/INST]"
+
+PARAMETER temperature       0.7
+# # Sets how far back for the model to look back to prevent repetition. (Default: 64, 0 = disabled, -1 = num_ctx)
+
+PARAMETER grammar """
+root ::= perm
+perm ::= "{"   ws   "\"readfiles\":"   ws   stringlist   "}"
+permlist ::= "[]" | "["   ws   perm   (","   ws   perm)*   "]"
+string ::= "\""   ([^"]*)   "\""
+ws ::= [ \t\n]*
+stringlist ::= "["   ws   "]" | "["   ws   string   (","   ws   string)*   ws   "]"
+"""
+
+
+SYSTEM """
+You are a shell script, Linux, and security expert. 
+Analyze the function of the code.
+Determine what file(s) the code is accessing and if read permission required for the code to run.
+Do not evaluate any other permission, only read.
+
+Output a json object with the field "readfiles" that contains a string array of files that need read access.
+Readfiles should contain all files that the code reads from
+If no files needed read access still output the json object with "readfiles" field but leave the array empty with []
+
+Json format:
+{
+readfiles: string[]
+}
+
+Analyze the following sh code snippet:
+
+"""

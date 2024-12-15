@@ -1,0 +1,37 @@
+FROM mistral:instruct
+# FROM codellama
+TEMPLATE """[INST] {{ .System }} {{ .Prompt }} [/INST]"""
+PARAMETER stop "[INST]"
+PARAMETER stop "[/INST]"
+
+PARAMETER temperature       0.7
+# # Sets how far back for the model to look back to prevent repetition. (Default: 64, 0 = disabled, -1 = num_ctx)
+
+PARAMETER grammar """
+root ::= perm
+perm ::= "{"   ws   "\"writefiles\":"   ws   stringlist   "}"
+permlist ::= "[]" | "["   ws   perm   (","   ws   perm)*   "]"
+string ::= "\""   ([^"]*)   "\""
+ws ::= [ \t\n]*
+stringlist ::= "["   ws   "]" | "["   ws   string   (","   ws   string)*   ws   "]"
+"""
+
+
+SYSTEM """
+You are a shell script, Linux, and security expert. 
+Analyze the function of the code.
+Determine what file(s) the code is accessing and if write permission required for the code to run.
+Do not evaluate any other permission, only write.
+
+Output a json object with the field "writefiles" that contains a string array of files that need write access.
+Writefiles should contain all files that the code writes too
+If no files needed write access still output the json object with "writefiles" field but leave the array empty with []
+
+Json format:
+{
+writefiles: string[]
+}
+
+Analyze the following sh code snippet:
+
+"""

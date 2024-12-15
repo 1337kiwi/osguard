@@ -1,0 +1,4 @@
+.venv
+.DS_Store
+infra
+/project-code/env/

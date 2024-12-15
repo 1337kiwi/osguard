@@ -1,0 +1,35 @@
+1,cat file.txt
+2,head -n 5 file.txt
+3,tail -n 3 file.txt
+4,less file.txt
+5,wc -l file.txt
+6,od -c file.txt
+7,grep 'search_term' file.txt
+8,sed -n '1p' file.txt
+9,cut -d' ' -f1 file.txt
+10,tr '[a-z]' '[A-Z]' < file.txt
+11,sort file.txt
+12,uniq file.txt
+13,file file.txt
+14,diff file1.txt file2.txt
+15,tail -n +2 -n 4 file.txt
+16,tail -n 1 file.txt
+17,head -n 1 file.txt
+18,cat -n file.txt
+19,strings file.txt
+20,hexdump -C file.txt
+21,xxd file.txt
+22,fold -w 40 file.txt
+23,expand file.txt
+24,unexpand file.txt
+25,tr -d '\n' < file.txt
+26,col -b < file.txt
+27,paste file1.txt file2.txt
+28,join file1.txt file2.txt
+29,comm file1.txt file2.txt
+30,grep -E 'pattern1|pattern2' file.txt
+31,xargs -n1 cat < file.list
+32,sed 's/old/new/g' file.txt
+33,tr 'a-z' 'A-Z' < file.txt
+34,nl file.txt
+35,more file.txt

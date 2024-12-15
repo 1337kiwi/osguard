@@ -1,0 +1,36 @@
+1,./script.sh
+2,bash file.sh
+3,python script.py
+4,ruby program.rb
+5,node app.js
+6,java -jar application.jar
+7,exec file.sh
+8,source file.sh
+9,./file.sh
+10,fish script.fish
+11,perl script.pl
+12,php script.php
+13,bash script.sh
+14,zsh script.zsh
+15,./script.sh arg1 arg2
+16,bash file.sh arg1 arg2
+17,python script.py arg1 arg2
+18,ruby program.rb arg1 arg2
+19,node app.js arg1 arg2
+20,java -jar application.jar arg1 arg2
+21,exec file.sh arg1 arg2
+22,source file.sh arg1 arg2
+23,./file.sh arg1 arg2
+24,fish script.fish arg1 arg2
+25,perl script.pl arg1 arg2
+26,php script.php arg1 arg2
+27,sh script.sh arg1 arg2
+28,zsh script.zsh arg1 arg2
+29,xdg-open file.txt
+30,./file.sh < input.txt
+31,bash file.sh < input.txt
+32,python script.py < input.txt
+33,ruby program.rb < input.txt
+34,node app.js < input.txt
+35,java -jar application.jar < input.txt
+36,./file.sh > output.txt

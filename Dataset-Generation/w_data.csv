@@ -1,0 +1,47 @@
+1,echo "Hello world!" > file.txt
+2,printf "This is a line of text.\n" >> file.txt
+3,touch file.txt
+4,cp source_file.txt new_file.txt
+5,truncate -s 0 file.txt
+6,echo "Content" > file.txt
+7,printf "This is a line of text.\n" >> file.txt
+8,cp source_file.txt new_file.txt
+9,mv source_file.txt new_file.txt
+10,touch file.txt
+11,truncate -s 0 file.txt
+12,dd if=/dev/zero of=file.txt bs=1 count=10
+13,fallocate -l 1024 file.txt
+14,cat file1.txt file2.txt > merged_file.txt
+15,tee file.txt << EOF
+16,sed -i 's/old/new/g' file.txt
+17,awk '{print $0 >> "file.txt"}' input_file.txt
+18,tar czf archive.tar.gz file1.txt file2.txt
+19,zip archive.zip file1.txt file2.txt
+20,gzip file.txt
+21,echo "Content" >> file.txt
+22,printf "This is a line of text.\nAnother line.\n" >> file.txt
+23,cat >> file.txt << EOF
+24,mv source_file.txt new_file.txt
+25,touch file.txt
+26,truncate -s 1024 file.txt
+27,dd if=/dev/zero of=file.txt bs=1 count=1024
+28,fallocate -l 10M file.txt
+29,cat file1.txt file2.txt file3.txt > merged_file.txt
+30,sed -i 's/old/new/g' file.txt
+31,awk '{print $0 >> "file.txt"}' input_file.txt
+32,zip -r archive.zip file1.txt file2.txt
+33,gzip -c file.txt > file.txt.gz
+34,bzip2 -c file.txt > file.txt.bz2
+35,xz -c file.txt > file.txt.xz
+36,7z a archive.7z file1.txt file2.txt
+37,xxd -r file.hex > file.txt
+38,base64 file.txt > file.b64
+39,base64 -d file.b64 > file.txt
+40,openssl rand -base64 32 > file.key
+41,openssl rand -hex 16 > file.iv
+42,md5sum file.txt > file.md5
+43,sha256sum file.txt > file.sha256
+44,cat file.txt >> new_file.txt
+45,printf "%s\n" "line 1" "line 2" "line 3" >> file.txt
+46,sed 's/^/    /' input_file.txt >> file.txt
+47,cat input_file.txt >> file.txt

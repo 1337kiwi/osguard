@@ -1,0 +1,21 @@
+head -n 1 sales_data.txt
+tail -n 1 customer_records.csv
+wc -l < inventory_log.xlsx
+wc -w < daily_report.docx
+wc -c < purchase_orders.pdf
+sort employees.txt | uniq
+grep 'sales' transactions.log
+grep -v 'error' system_logs.txt
+grep '^order' order_history.db
+grep 'complete$' project_status.txt
+echo "This is a new line" >> file.txt
+echo "New content" > file.txt
+ls -l >> file_list.txt
+grep 'error' logs.txt > errors.log
+find . -type f | tee -a file_list.txt
+date >> logs.txt
+df -h > disk_usage.txt
+echo "CPU Usage:" >> system_info.txt && top -bn1 | grep "Cpu(s)" >> system_info.txt
+hostname > server_name.txt
+echo "$(( 2 + 2 ))" >> math_results.txt
+./myexecutable

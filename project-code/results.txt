@@ -1,0 +1,2271 @@
+----- Evaluating OsGuard-r r accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 28 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 29 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 30 correct
+Dataset r, id 31 correct
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 29/35 (82.86%) -----
+----- Evaluating OsGuard-r r accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 correct
+Dataset w, id 3 correct
+Dataset w, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'source_file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 5 correct
+Dataset w, id 6 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 7 correct
+Dataset w, id 8 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'source_file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 9 correct
+Dataset w, id 10 correct
+Dataset w, id 11 correct
+Dataset w, id 12 NOT correct
+  Expected: [{'required': 'yes', 'filename': '/dev/zero'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 correct
+Dataset w, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 21 correct
+Dataset w, id 22 correct
+Dataset w, id 23 correct
+Dataset w, id 24 correct
+Dataset w, id 25 correct
+Dataset w, id 26 correct
+Dataset w, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': '/dev/zero'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 28 correct
+Dataset w, id 29 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}, {'required': 'yes', 'filename': 'file3.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2. txt'}, {'required': 'yes', 'filename': 'file3.txt'}]
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 correct
+Dataset w, id 33 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 34 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.b64'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 correct
+Dataset w, id 45 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 46 correct
+Dataset w, id 47 correct
+----- Accuracy: 32/47 (68.09%) -----
+----- Evaluating OsGuard-r r accuracy on dataset x_data.csv -----
+Dataset x, id 1 correct
+Dataset x, id 2 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': '/etc/passwd'}, {'required': 'yes', 'filename': '/etc/group'}]
+Dataset x, id 3 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.py'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 4 correct
+Dataset x, id 5 correct
+Dataset x, id 6 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 7 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 8 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 9 correct
+Dataset x, id 10 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.fish'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 11 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.pl'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 12 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.php'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'yes', 'filename': '/etc/passwd'}, {'required': 'yes', 'filename': '/etc/group'}]
+Dataset x, id 14 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.zsh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 15 correct
+Dataset x, id 16 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 17 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.py'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 18 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'program.rb'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'app.js'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 21 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 22 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 23 correct
+Dataset x, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.fish'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 25 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.pl'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 26 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.php'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 28 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.zsh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 29 correct
+Dataset x, id 30 correct
+Dataset x, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 32 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.py'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 33 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'program.rb'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 34 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'app.js'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 36 correct
+----- Accuracy: 9/36 (25.00%) -----
+----- Evaluating OsGuard-r-fs r accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 correct
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 correct
+Dataset r, id 24 correct
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 correct
+Dataset r, id 28 correct
+Dataset r, id 29 correct
+Dataset r, id 30 correct
+Dataset r, id 31 correct
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 35/35 (100.00%) -----
+----- Evaluating OsGuard-r-fs r accuracy on dataset w_data.csv -----
+Dataset w, id 1 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 2 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 3 correct
+Dataset w, id 4 correct
+Dataset w, id 5 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 6 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 7 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 8 correct
+Dataset w, id 9 correct
+Dataset w, id 10 correct
+Dataset w, id 11 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 12 correct
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'EOF'}, {'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}, {'required': 'yes', 'filename': 'archive.tar.gz'}]
+Dataset w, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'archive.zip'}, {'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+Dataset w, id 20 correct
+Dataset w, id 21 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 22 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 23 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 24 correct
+Dataset w, id 25 correct
+Dataset w, id 26 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 27 correct
+Dataset w, id 28 correct
+Dataset w, id 29 correct
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 correct
+Dataset w, id 33 correct
+Dataset w, id 34 correct
+Dataset w, id 35 correct
+Dataset w, id 36 correct
+Dataset w, id 37 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.hex'}]
+  Actual: [{'required': 'yes', 'filename': 'file.hex'}, {'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 38 correct
+Dataset w, id 39 correct
+Dataset w, id 40 correct
+Dataset w, id 41 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.iv'}]
+Dataset w, id 42 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}, {'required': 'yes', 'filename': 'file.md5'}]
+Dataset w, id 43 correct
+Dataset w, id 44 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}, {'required': 'yes', 'filename': 'new_file.txt'}]
+Dataset w, id 45 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 46 correct
+Dataset w, id 47 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'input_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input_file.txt'}, {'required': 'yes', 'filename': 'file.txt'}]
+----- Accuracy: 28/47 (59.57%) -----
+----- Evaluating OsGuard-r-fs r accuracy on dataset x_data.csv -----
+Dataset x, id 1 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'script.sh'}]
+Dataset x, id 2 correct
+Dataset x, id 3 correct
+Dataset x, id 4 correct
+Dataset x, id 5 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'app.js'}]
+  Actual: [{'required': 'yes', 'filename': 'app.sh'}]
+Dataset x, id 6 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 7 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 8 correct
+Dataset x, id 9 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 10 correct
+Dataset x, id 11 correct
+Dataset x, id 12 correct
+Dataset x, id 13 correct
+Dataset x, id 14 correct
+Dataset x, id 15 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}, {'required': 'yes', 'filename': './script.sh'}]
+Dataset x, id 16 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 17 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.py'}]
+  Actual: [{'required': 'yes', 'filename': 'script.py'}, {'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}]
+Dataset x, id 18 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'program.rb'}]
+  Actual: [{'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}, {'required': 'yes', 'filename': 'program.rb'}]
+Dataset x, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'app.js'}]
+  Actual: [{'required': 'yes', 'filename': 'app.sh'}, {'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}]
+Dataset x, id 20 correct
+Dataset x, id 21 correct
+Dataset x, id 22 correct
+Dataset x, id 23 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}, {'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}]
+Dataset x, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.fish'}]
+  Actual: [{'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}, {'required': 'yes', 'filename': '/etc/fish/conf/config. Fish'}, {'required': 'yes', 'filename': '/etc/fish/functions/function. Fish'}, {'required': 'yes', 'filename': '/etc/fish/system. Fish'}]
+Dataset x, id 25 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.pl'}]
+  Actual: [{'required': 'yes', 'filename': 'script.pl'}, {'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}]
+Dataset x, id 26 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.php'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 28 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.zsh'}]
+  Actual: [{'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}, {'required': 'yes', 'filename': '/etc/passwd'}, {'required': 'yes', 'filename': '/proc/self/cwd'}, {'required': 'yes', 'filename': '/dev/stdin'}, {'required': 'yes', 'filename': '/dev/stdout'}, {'required': 'yes', 'filename': '/dev/stderr'}]
+Dataset x, id 29 correct
+Dataset x, id 30 correct
+Dataset x, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 correct
+Dataset x, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 36 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}, {'required': 'yes', 'filename': 'output.txt'}]
+----- Accuracy: 17/36 (47.22%) -----
+----- Evaluating OsGuard-w w accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 correct
+Dataset r, id 24 correct
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 correct
+Dataset r, id 28 correct
+Dataset r, id 29 correct
+Dataset r, id 30 correct
+Dataset r, id 31 correct
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 34/35 (97.14%) -----
+----- Evaluating OsGuard-w w accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 correct
+Dataset w, id 3 correct
+Dataset w, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 5 correct
+Dataset w, id 6 correct
+Dataset w, id 7 correct
+Dataset w, id 8 correct
+Dataset w, id 9 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 10 correct
+Dataset w, id 11 correct
+Dataset w, id 12 correct
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 correct
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 correct
+Dataset w, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'archive.zip'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 20 correct
+Dataset w, id 21 correct
+Dataset w, id 22 correct
+Dataset w, id 23 correct
+Dataset w, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 25 correct
+Dataset w, id 26 correct
+Dataset w, id 27 correct
+Dataset w, id 28 correct
+Dataset w, id 29 correct
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 correct
+Dataset w, id 33 correct
+Dataset w, id 34 correct
+Dataset w, id 35 correct
+Dataset w, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'archive.7z'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 correct
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'new_file.txt'}, {'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 45 correct
+Dataset w, id 46 correct
+Dataset w, id 47 correct
+----- Accuracy: 41/47 (87.23%) -----
+----- Evaluating OsGuard-w w accuracy on dataset x_data.csv -----
+Dataset x, id 1 correct
+Dataset x, id 2 correct
+Dataset x, id 3 correct
+Dataset x, id 4 correct
+Dataset x, id 5 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'app.js'}]
+Dataset x, id 6 correct
+Dataset x, id 7 correct
+Dataset x, id 8 correct
+Dataset x, id 9 correct
+Dataset x, id 10 correct
+Dataset x, id 11 correct
+Dataset x, id 12 correct
+Dataset x, id 13 correct
+Dataset x, id 14 correct
+Dataset x, id 15 correct
+Dataset x, id 16 correct
+Dataset x, id 17 correct
+Dataset x, id 18 correct
+Dataset x, id 19 correct
+Dataset x, id 20 correct
+Dataset x, id 21 correct
+Dataset x, id 22 correct
+Dataset x, id 23 correct
+Dataset x, id 24 correct
+Dataset x, id 25 correct
+Dataset x, id 26 correct
+Dataset x, id 27 correct
+Dataset x, id 28 correct
+Dataset x, id 29 correct
+Dataset x, id 30 correct
+Dataset x, id 31 correct
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 correct
+Dataset x, id 35 correct
+Dataset x, id 36 correct
+----- Accuracy: 35/36 (97.22%) -----
+----- Evaluating OsGuard-w-fs w accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 correct
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 correct
+Dataset r, id 24 correct
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 correct
+Dataset r, id 28 correct
+Dataset r, id 29 correct
+Dataset r, id 30 correct
+Dataset r, id 31 correct
+Dataset r, id 32 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 34/35 (97.14%) -----
+----- Evaluating OsGuard-w-fs w accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 correct
+Dataset w, id 3 correct
+Dataset w, id 4 correct
+Dataset w, id 5 correct
+Dataset w, id 6 correct
+Dataset w, id 7 correct
+Dataset w, id 8 correct
+Dataset w, id 9 correct
+Dataset w, id 10 correct
+Dataset w, id 11 correct
+Dataset w, id 12 correct
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 correct
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 correct
+Dataset w, id 19 correct
+Dataset w, id 20 correct
+Dataset w, id 21 correct
+Dataset w, id 22 correct
+Dataset w, id 23 correct
+Dataset w, id 24 correct
+Dataset w, id 25 correct
+Dataset w, id 26 correct
+Dataset w, id 27 correct
+Dataset w, id 28 correct
+Dataset w, id 29 correct
+Dataset w, id 30 correct
+Dataset w, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'file.tex'}]
+Dataset w, id 32 correct
+Dataset w, id 33 correct
+Dataset w, id 34 correct
+Dataset w, id 35 correct
+Dataset w, id 36 correct
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 correct
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 correct
+Dataset w, id 45 correct
+Dataset w, id 46 correct
+Dataset w, id 47 correct
+----- Accuracy: 46/47 (97.87%) -----
+----- Evaluating OsGuard-w-fs w accuracy on dataset x_data.csv -----
+Dataset x, id 1 correct
+Dataset x, id 2 correct
+Dataset x, id 3 correct
+Dataset x, id 4 correct
+Dataset x, id 5 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'app.js'}]
+Dataset x, id 6 correct
+Dataset x, id 7 correct
+Dataset x, id 8 correct
+Dataset x, id 9 correct
+Dataset x, id 10 correct
+Dataset x, id 11 correct
+Dataset x, id 12 correct
+Dataset x, id 13 correct
+Dataset x, id 14 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'output.txt'}]
+Dataset x, id 15 correct
+Dataset x, id 16 correct
+Dataset x, id 17 correct
+Dataset x, id 18 correct
+Dataset x, id 19 correct
+Dataset x, id 20 correct
+Dataset x, id 21 correct
+Dataset x, id 22 correct
+Dataset x, id 23 correct
+Dataset x, id 24 correct
+Dataset x, id 25 correct
+Dataset x, id 26 correct
+Dataset x, id 27 correct
+Dataset x, id 28 correct
+Dataset x, id 29 correct
+Dataset x, id 30 correct
+Dataset x, id 31 correct
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 correct
+Dataset x, id 35 correct
+Dataset x, id 36 correct
+----- Accuracy: 34/36 (94.44%) -----
+----- Evaluating OsGuard-x x accuracy on dataset r_data.csv -----
+Dataset r, id 1 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cat'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'tr'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'strings'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'expand'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'unexpand'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 correct
+Dataset r, id 28 correct
+Dataset r, id 29 correct
+Dataset r, id 30 correct
+Dataset r, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'xargs'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 32 correct
+Dataset r, id 33 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'tr'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 27/35 (77.14%) -----
+----- Evaluating OsGuard-x x accuracy on dataset w_data.csv -----
+Dataset w, id 1 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'echo'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 2 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 3 correct
+Dataset w, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cp'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 5 correct
+Dataset w, id 6 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'echo'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 7 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 8 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cp'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 9 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'mv'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 10 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'touch'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 11 correct
+Dataset w, id 12 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'dd'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'tee'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 16 correct
+Dataset w, id 17 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'awk'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 18 correct
+Dataset w, id 19 correct
+Dataset w, id 20 correct
+Dataset w, id 21 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'echo'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 22 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 23 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cat'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'mv'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 25 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'touch'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 26 correct
+Dataset w, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'dd'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 28 correct
+Dataset w, id 29 correct
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 correct
+Dataset w, id 33 correct
+Dataset w, id 34 correct
+Dataset w, id 35 correct
+Dataset w, id 36 correct
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 correct
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cat'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 45 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 46 correct
+Dataset w, id 47 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cat'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+----- Accuracy: 27/47 (57.45%) -----
+----- Evaluating OsGuard-x x accuracy on dataset x_data.csv -----
+Dataset x, id 1 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 2 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 3 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'python'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'ruby'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 5 correct
+Dataset x, id 6 correct
+Dataset x, id 7 correct
+Dataset x, id 8 correct
+Dataset x, id 9 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 10 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'fish'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 11 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'perl'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 12 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'php'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 14 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'zsh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 15 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 16 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 17 correct
+Dataset x, id 18 correct
+Dataset x, id 19 correct
+Dataset x, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'java'}, {'required': 'yes', 'filename': 'jar'}]
+Dataset x, id 21 correct
+Dataset x, id 22 correct
+Dataset x, id 23 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'fish'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 25 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'perl'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 26 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'php'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 28 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'zsh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 29 correct
+Dataset x, id 30 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 correct
+Dataset x, id 35 correct
+Dataset x, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}]
+----- Accuracy: 14/36 (38.89%) -----
+----- Evaluating OsGuard-x-fs x accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}, {'required': 'yes', 'filename': 'file'}]
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 correct
+Dataset r, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'unexpand'}]
+  Actual: [{'required': 'yes', 'filename': 'une Expand'}]
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 correct
+Dataset r, id 28 correct
+Dataset r, id 29 correct
+Dataset r, id 30 correct
+Dataset r, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'xargs'}]
+  Actual: [{'required': 'yes', 'filename': 'xargs'}, {'required': 'yes', 'filename': 'cat'}]
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 32/35 (91.43%) -----
+----- Evaluating OsGuard-x-fs x accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 correct
+Dataset w, id 3 correct
+Dataset w, id 4 correct
+Dataset w, id 5 correct
+Dataset w, id 6 correct
+Dataset w, id 7 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'yes', 'filename': 'printf'}, {'required': 'yes', 'filename': '>>'}]
+Dataset w, id 8 correct
+Dataset w, id 9 correct
+Dataset w, id 10 correct
+Dataset w, id 11 correct
+Dataset w, id 12 correct
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 correct
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 correct
+Dataset w, id 19 correct
+Dataset w, id 20 correct
+Dataset w, id 21 correct
+Dataset w, id 22 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'yes', 'filename': 'printf'}, {'required': 'yes', 'filename': '>>'}]
+Dataset w, id 23 correct
+Dataset w, id 24 correct
+Dataset w, id 25 correct
+Dataset w, id 26 correct
+Dataset w, id 27 correct
+Dataset w, id 28 correct
+Dataset w, id 29 correct
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 correct
+Dataset w, id 33 correct
+Dataset w, id 34 correct
+Dataset w, id 35 correct
+Dataset w, id 36 correct
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 correct
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 correct
+Dataset w, id 45 correct
+Dataset w, id 46 correct
+Dataset w, id 47 correct
+----- Accuracy: 45/47 (95.74%) -----
+----- Evaluating OsGuard-x-fs x accuracy on dataset x_data.csv -----
+Dataset x, id 1 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'bash'}, {'required': 'yes', 'filename': './script.sh'}]
+Dataset x, id 2 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'yes', 'filename': 'bash'}, {'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 3 correct
+Dataset x, id 4 correct
+Dataset x, id 5 correct
+Dataset x, id 6 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'java'}, {'required': 'yes', 'filename': 'application.jar'}]
+Dataset x, id 7 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'exec'}, {'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 8 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'source'}]
+Dataset x, id 9 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}, {'required': 'yes', 'filename': '.'}]
+Dataset x, id 10 correct
+Dataset x, id 11 correct
+Dataset x, id 12 correct
+Dataset x, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'yes', 'filename': 'bash'}, {'required': 'yes', 'filename': 'script.sh'}]
+Dataset x, id 14 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'zsh'}]
+  Actual: [{'required': 'yes', 'filename': 'zsh'}, {'required': 'yes', 'filename': 'script.zsh'}]
+Dataset x, id 15 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script'}]
+  Actual: [{'required': 'yes', 'filename': 'bash'}, {'required': 'yes', 'filename': './script.sh'}]
+Dataset x, id 16 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'yes', 'filename': 'bash'}, {'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 17 correct
+Dataset x, id 18 correct
+Dataset x, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'node'}]
+  Actual: [{'required': 'yes', 'filename': 'node'}, {'required': 'yes', 'filename': 'app.js'}]
+Dataset x, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'java'}, {'required': 'yes', 'filename': 'jar'}]
+Dataset x, id 21 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'exec'}, {'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 22 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'source'}]
+Dataset x, id 23 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}, {'required': 'yes', 'filename': './file.sh'}]
+Dataset x, id 24 correct
+Dataset x, id 25 correct
+Dataset x, id 26 correct
+Dataset x, id 27 correct
+Dataset x, id 28 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'zsh'}]
+  Actual: [{'required': 'yes', 'filename': 'zsh'}, {'required': 'yes', 'filename': 'script.zsh'}]
+Dataset x, id 29 correct
+Dataset x, id 30 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}, {'required': 'yes', 'filename': 'cat'}]
+Dataset x, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'yes', 'filename': 'bash'}, {'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 correct
+Dataset x, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'java'}, {'required': 'yes', 'filename': 'jar'}]
+Dataset x, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}, {'required': 'yes', 'filename': '>&'}]
+----- Accuracy: 16/36 (44.44%) -----
+----- Evaluating OsGuard-rwx r accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 13 correct
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 24 correct
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 28 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 29 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 30 correct
+Dataset r, id 31 correct
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 30/35 (85.71%) -----
+----- Evaluating OsGuard-rwx r accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 correct
+Dataset w, id 3 correct
+Dataset w, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'source_file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 5 correct
+Dataset w, id 6 correct
+Dataset w, id 7 correct
+Dataset w, id 8 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'source_file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 9 correct
+Dataset w, id 10 correct
+Dataset w, id 11 correct
+Dataset w, id 12 NOT correct
+  Expected: [{'required': 'yes', 'filename': '/dev/zero'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 correct
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 21 correct
+Dataset w, id 22 correct
+Dataset w, id 23 correct
+Dataset w, id 24 correct
+Dataset w, id 25 correct
+Dataset w, id 26 correct
+Dataset w, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': '/dev/zero'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 28 correct
+Dataset w, id 29 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}, {'required': 'yes', 'filename': 'file3.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}, {'required': 'yes', 'filename': 'file3.txt'}, {'required': 'yes', 'filename': 'merged_file.txt'}]
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 33 correct
+Dataset w, id 34 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.b64'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 correct
+Dataset w, id 45 correct
+Dataset w, id 46 correct
+Dataset w, id 47 correct
+----- Accuracy: 34/47 (72.34%) -----
+----- Evaluating OsGuard-rwx r accuracy on dataset x_data.csv -----
+Dataset x, id 1 correct
+Dataset x, id 2 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 3 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.py'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'program.rb'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 5 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'app.js'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 6 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 7 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 8 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 9 correct
+Dataset x, id 10 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.fish'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 11 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.pl'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 12 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.php'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 14 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.zsh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 15 correct
+Dataset x, id 16 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 17 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.py'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 18 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'program.rb'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'app.js'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 21 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 22 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 23 correct
+Dataset x, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.fish'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 25 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.pl'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 26 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.php'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 28 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.zsh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 29 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 30 correct
+Dataset x, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 32 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.py'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 33 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'program.rb'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 34 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'app.js'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 36 correct
+----- Accuracy: 6/36 (16.67%) -----
+----- Evaluating OsGuard-rwx w accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset r, id 13 correct
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset r, id 24 correct
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+Dataset r, id 28 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+Dataset r, id 29 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+Dataset r, id 30 correct
+Dataset r, id 31 correct
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 30/35 (85.71%) -----
+----- Evaluating OsGuard-rwx w accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 correct
+Dataset w, id 3 correct
+Dataset w, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'source_file.txt'}]
+Dataset w, id 5 correct
+Dataset w, id 6 correct
+Dataset w, id 7 correct
+Dataset w, id 8 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'source_file.txt'}]
+Dataset w, id 9 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'source_file.txt'}]
+Dataset w, id 10 correct
+Dataset w, id 11 correct
+Dataset w, id 12 correct
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 correct
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 correct
+Dataset w, id 19 correct
+Dataset w, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt.gz'}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 21 correct
+Dataset w, id 22 correct
+Dataset w, id 23 correct
+Dataset w, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'source_file.txt'}]
+Dataset w, id 25 correct
+Dataset w, id 26 correct
+Dataset w, id 27 correct
+Dataset w, id 28 correct
+Dataset w, id 29 correct
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 correct
+Dataset w, id 33 correct
+Dataset w, id 34 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt.bz2'}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt.xz'}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}, {'required': 'yes', 'filename': 'file.txt.xz'}]
+Dataset w, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'archive.7z'}]
+  Actual: [{'required': 'yes', 'filename': 'archive.7z'}, {'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'file.b64'}, {'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 correct
+Dataset w, id 45 correct
+Dataset w, id 46 correct
+Dataset w, id 47 correct
+----- Accuracy: 38/47 (80.85%) -----
+----- Evaluating OsGuard-rwx w accuracy on dataset x_data.csv -----
+Dataset x, id 1 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'output.txt'}]
+Dataset x, id 2 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 3 correct
+Dataset x, id 4 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'output.txt'}]
+Dataset x, id 5 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'app.js'}]
+Dataset x, id 6 correct
+Dataset x, id 7 correct
+Dataset x, id 8 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 9 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 10 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'config.txt'}]
+Dataset x, id 11 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'script.pl'}]
+Dataset x, id 12 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'script.php'}]
+Dataset x, id 13 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 14 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 15 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'output.txt'}]
+Dataset x, id 16 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'output.txt'}]
+Dataset x, id 17 correct
+Dataset x, id 18 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'program.rb'}]
+Dataset x, id 19 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'app.js'}]
+Dataset x, id 20 correct
+Dataset x, id 21 correct
+Dataset x, id 22 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 23 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 24 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'script.fish'}]
+Dataset x, id 25 correct
+Dataset x, id 26 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'script.php'}]
+Dataset x, id 27 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'script.sh'}]
+Dataset x, id 28 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}]
+Dataset x, id 29 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset x, id 30 correct
+Dataset x, id 31 correct
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 correct
+Dataset x, id 35 correct
+Dataset x, id 36 correct
+----- Accuracy: 14/36 (38.89%) -----
+----- Evaluating OsGuard-rwx x accuracy on dataset r_data.csv -----
+Dataset r, id 1 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cat'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'strings'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 correct
+Dataset r, id 24 correct
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 correct
+Dataset r, id 28 correct
+Dataset r, id 29 correct
+Dataset r, id 30 correct
+Dataset r, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'xargs'}]
+  Actual: [{'required': 'yes', 'filename': 'xargs'}, {'required': 'yes', 'filename': 'cat'}]
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 31/35 (88.57%) -----
+----- Evaluating OsGuard-rwx x accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}, {'required': 'yes', 'filename': 'printf'}]
+Dataset w, id 3 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'touch'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 4 correct
+Dataset w, id 5 correct
+Dataset w, id 6 correct
+Dataset w, id 7 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'yes', 'filename': 'printf'}, {'required': 'yes', 'filename': '>>'}]
+Dataset w, id 8 correct
+Dataset w, id 9 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'mv'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 10 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'touch'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 11 correct
+Dataset w, id 12 correct
+Dataset w, id 13 correct
+Dataset w, id 14 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cat'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 15 correct
+Dataset w, id 16 correct
+Dataset w, id 17 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'awk'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 18 correct
+Dataset w, id 19 correct
+Dataset w, id 20 correct
+Dataset w, id 21 correct
+Dataset w, id 22 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 23 correct
+Dataset w, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'mv'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 25 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'touch'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 26 correct
+Dataset w, id 27 correct
+Dataset w, id 28 correct
+Dataset w, id 29 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cat'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 30 correct
+Dataset w, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'awk'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 32 correct
+Dataset w, id 33 correct
+Dataset w, id 34 correct
+Dataset w, id 35 correct
+Dataset w, id 36 correct
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 correct
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cat'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 45 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'printf'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 46 correct
+Dataset w, id 47 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'cat'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+----- Accuracy: 32/47 (68.09%) -----
+----- Evaluating OsGuard-rwx x accuracy on dataset x_data.csv -----
+Dataset x, id 1 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'grep'}, {'required': 'yes', 'filename': 'awk'}]
+Dataset x, id 2 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'yes', 'filename': 'grep'}, {'required': 'yes', 'filename': 'awk'}]
+Dataset x, id 3 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'python'}]
+  Actual: [{'required': 'yes', 'filename': 'script.py'}]
+Dataset x, id 4 correct
+Dataset x, id 5 correct
+Dataset x, id 6 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'application.jar'}]
+Dataset x, id 7 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 8 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'source'}]
+Dataset x, id 9 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'grep'}, {'required': 'yes', 'filename': 'awk'}]
+Dataset x, id 10 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'fish'}]
+  Actual: [{'required': 'yes', 'filename': 'grep'}, {'required': 'yes', 'filename': 'sed'}]
+Dataset x, id 11 correct
+Dataset x, id 12 correct
+Dataset x, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'yes', 'filename': 'grep'}, {'required': 'yes', 'filename': 'sed'}]
+Dataset x, id 14 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'zsh'}]
+  Actual: [{'required': 'yes', 'filename': 'grep'}, {'required': 'yes', 'filename': 'sed'}]
+Dataset x, id 15 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script'}]
+  Actual: [{'required': 'yes', 'filename': 'grep'}, {'required': 'yes', 'filename': 'sed'}]
+Dataset x, id 16 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 17 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'python'}]
+  Actual: [{'required': 'yes', 'filename': 'script.py'}]
+Dataset x, id 18 correct
+Dataset x, id 19 correct
+Dataset x, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'application.jar'}]
+Dataset x, id 21 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 22 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'source'}]
+Dataset x, id 23 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}]
+Dataset x, id 24 correct
+Dataset x, id 25 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'perl'}]
+  Actual: [{'required': 'yes', 'filename': 'script.pl'}]
+Dataset x, id 26 correct
+Dataset x, id 27 correct
+Dataset x, id 28 correct
+Dataset x, id 29 correct
+Dataset x, id 30 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'node'}]
+  Actual: [{'required': 'yes', 'filename': 'app.js'}]
+Dataset x, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'java'}, {'required': 'yes', 'filename': 'application.jar'}]
+Dataset x, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}]
+----- Accuracy: 13/36 (36.11%) -----
+----- Evaluating OsGuard-rwx-fs r accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 correct
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 correct
+Dataset r, id 24 correct
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 correct
+Dataset r, id 28 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 29 correct
+Dataset r, id 30 correct
+Dataset r, id 31 correct
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 34/35 (97.14%) -----
+----- Evaluating OsGuard-rwx-fs r accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 3 correct
+Dataset w, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'source_file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 5 correct
+Dataset w, id 6 correct
+Dataset w, id 7 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 8 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'source_file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 9 correct
+Dataset w, id 10 correct
+Dataset w, id 11 correct
+Dataset w, id 12 NOT correct
+  Expected: [{'required': 'yes', 'filename': '/dev/zero'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 21 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 22 correct
+Dataset w, id 23 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 24 correct
+Dataset w, id 25 correct
+Dataset w, id 26 correct
+Dataset w, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': '/dev/zero'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 28 correct
+Dataset w, id 29 correct
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 33 correct
+Dataset w, id 34 correct
+Dataset w, id 35 correct
+Dataset w, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file1.txt'}, {'required': 'yes', 'filename': 'file2.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 37 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.hex'}]
+  Actual: [{'required': 'yes', 'filename': 'file.hex'}, {'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 38 correct
+Dataset w, id 39 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.b64'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}, {'required': 'yes', 'filename': 'new_file.txt'}]
+Dataset w, id 45 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 46 correct
+Dataset w, id 47 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'input_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input_file.txt'}, {'required': 'yes', 'filename': 'file.txt'}]
+----- Accuracy: 28/47 (59.57%) -----
+----- Evaluating OsGuard-rwx-fs r accuracy on dataset x_data.csv -----
+Dataset x, id 1 correct
+Dataset x, id 2 correct
+Dataset x, id 3 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.py'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'program.rb'}]
+  Actual: [{'required': 'yes', 'filename': 'program.sh'}]
+Dataset x, id 5 correct
+Dataset x, id 6 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 7 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 8 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 9 correct
+Dataset x, id 10 correct
+Dataset x, id 11 correct
+Dataset x, id 12 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.php'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 13 correct
+Dataset x, id 14 correct
+Dataset x, id 15 correct
+Dataset x, id 16 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 17 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.py'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 18 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'program.rb'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'app.js'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 21 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 22 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 23 correct
+Dataset x, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.fish'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 25 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.pl'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 26 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.php'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset x, id 28 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.zsh'}]
+  Actual: [{'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}]
+Dataset x, id 29 correct
+Dataset x, id 30 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}, {'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 31 correct
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 correct
+Dataset x, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'application.jar'}, {'required': 'yes', 'filename': 'input.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'input.txt'}]
+Dataset x, id 36 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'file.sh'}]
+----- Accuracy: 15/36 (41.67%) -----
+----- Evaluating OsGuard-rwx-fs w accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 correct
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 correct
+Dataset r, id 24 correct
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 correct
+Dataset r, id 28 correct
+Dataset r, id 29 correct
+Dataset r, id 30 correct
+Dataset r, id 31 correct
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 35/35 (100.00%) -----
+----- Evaluating OsGuard-rwx-fs w accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 correct
+Dataset w, id 3 correct
+Dataset w, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'source_file.txt'}, {'required': 'yes', 'filename': 'new_file.txt'}]
+Dataset w, id 5 correct
+Dataset w, id 6 correct
+Dataset w, id 7 correct
+Dataset w, id 8 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'new_file.txt'}, {'required': 'yes', 'filename': 'source_file.txt'}]
+Dataset w, id 9 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'source_file.txt'}, {'required': 'yes', 'filename': 'new_file.txt'}]
+Dataset w, id 10 correct
+Dataset w, id 11 correct
+Dataset w, id 12 correct
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 correct
+Dataset w, id 19 correct
+Dataset w, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt.gz'}]
+  Actual: [{'required': 'yes', 'filename': 'file.txt'}]
+Dataset w, id 21 correct
+Dataset w, id 22 correct
+Dataset w, id 23 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 24 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'new_file.txt'}]
+  Actual: [{'required': 'yes', 'filename': 'source_file.txt'}, {'required': 'yes', 'filename': 'new_file.txt'}]
+Dataset w, id 25 correct
+Dataset w, id 26 correct
+Dataset w, id 27 correct
+Dataset w, id 28 correct
+Dataset w, id 29 correct
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 correct
+Dataset w, id 33 correct
+Dataset w, id 34 correct
+Dataset w, id 35 correct
+Dataset w, id 36 correct
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 correct
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 correct
+Dataset w, id 45 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.txt'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset w, id 46 correct
+Dataset w, id 47 correct
+----- Accuracy: 39/47 (82.98%) -----
+----- Evaluating OsGuard-rwx-fs w accuracy on dataset x_data.csv -----
+Dataset x, id 1 correct
+Dataset x, id 2 correct
+Dataset x, id 3 correct
+Dataset x, id 4 correct
+Dataset x, id 5 correct
+Dataset x, id 6 correct
+Dataset x, id 7 correct
+Dataset x, id 8 correct
+Dataset x, id 9 correct
+Dataset x, id 10 correct
+Dataset x, id 11 correct
+Dataset x, id 12 correct
+Dataset x, id 13 correct
+Dataset x, id 14 correct
+Dataset x, id 15 correct
+Dataset x, id 16 correct
+Dataset x, id 17 correct
+Dataset x, id 18 correct
+Dataset x, id 19 correct
+Dataset x, id 20 correct
+Dataset x, id 21 correct
+Dataset x, id 22 correct
+Dataset x, id 23 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'arg1'}, {'required': 'yes', 'filename': 'arg2'}]
+Dataset x, id 24 correct
+Dataset x, id 25 correct
+Dataset x, id 26 correct
+Dataset x, id 27 correct
+Dataset x, id 28 correct
+Dataset x, id 29 correct
+Dataset x, id 30 correct
+Dataset x, id 31 correct
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 correct
+Dataset x, id 35 correct
+Dataset x, id 36 correct
+----- Accuracy: 35/36 (97.22%) -----
+----- Evaluating OsGuard-rwx-fs x accuracy on dataset r_data.csv -----
+Dataset r, id 1 correct
+Dataset r, id 2 correct
+Dataset r, id 3 correct
+Dataset r, id 4 correct
+Dataset r, id 5 correct
+Dataset r, id 6 correct
+Dataset r, id 7 correct
+Dataset r, id 8 correct
+Dataset r, id 9 correct
+Dataset r, id 10 correct
+Dataset r, id 11 correct
+Dataset r, id 12 correct
+Dataset r, id 13 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file'}]
+  Actual: [{'required': 'no', 'filename': ''}]
+Dataset r, id 14 correct
+Dataset r, id 15 correct
+Dataset r, id 16 correct
+Dataset r, id 17 correct
+Dataset r, id 18 correct
+Dataset r, id 19 correct
+Dataset r, id 20 correct
+Dataset r, id 21 correct
+Dataset r, id 22 correct
+Dataset r, id 23 correct
+Dataset r, id 24 correct
+Dataset r, id 25 correct
+Dataset r, id 26 correct
+Dataset r, id 27 correct
+Dataset r, id 28 correct
+Dataset r, id 29 correct
+Dataset r, id 30 correct
+Dataset r, id 31 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'xargs'}]
+  Actual: [{'required': 'yes', 'filename': 'xargs'}, {'required': 'yes', 'filename': 'cat'}]
+Dataset r, id 32 correct
+Dataset r, id 33 correct
+Dataset r, id 34 correct
+Dataset r, id 35 correct
+----- Accuracy: 33/35 (94.29%) -----
+----- Evaluating OsGuard-rwx-fs x accuracy on dataset w_data.csv -----
+Dataset w, id 1 correct
+Dataset w, id 2 correct
+Dataset w, id 3 correct
+Dataset w, id 4 correct
+Dataset w, id 5 correct
+Dataset w, id 6 correct
+Dataset w, id 7 correct
+Dataset w, id 8 correct
+Dataset w, id 9 correct
+Dataset w, id 10 correct
+Dataset w, id 11 correct
+Dataset w, id 12 correct
+Dataset w, id 13 correct
+Dataset w, id 14 correct
+Dataset w, id 15 correct
+Dataset w, id 16 correct
+Dataset w, id 17 correct
+Dataset w, id 18 correct
+Dataset w, id 19 correct
+Dataset w, id 20 correct
+Dataset w, id 21 correct
+Dataset w, id 22 correct
+Dataset w, id 23 correct
+Dataset w, id 24 correct
+Dataset w, id 25 correct
+Dataset w, id 26 correct
+Dataset w, id 27 correct
+Dataset w, id 28 correct
+Dataset w, id 29 correct
+Dataset w, id 30 correct
+Dataset w, id 31 correct
+Dataset w, id 32 correct
+Dataset w, id 33 correct
+Dataset w, id 34 correct
+Dataset w, id 35 correct
+Dataset w, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': '7z'}]
+  Actual: [{'required': 'yes', 'filename': '7z'}, {'required': 'yes', 'filename': 'a'}]
+Dataset w, id 37 correct
+Dataset w, id 38 correct
+Dataset w, id 39 correct
+Dataset w, id 40 correct
+Dataset w, id 41 correct
+Dataset w, id 42 correct
+Dataset w, id 43 correct
+Dataset w, id 44 correct
+Dataset w, id 45 correct
+Dataset w, id 46 correct
+Dataset w, id 47 correct
+----- Accuracy: 46/47 (97.87%) -----
+----- Evaluating OsGuard-rwx-fs x accuracy on dataset x_data.csv -----
+Dataset x, id 1 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}, {'required': 'yes', 'filename': './script.sh'}]
+Dataset x, id 2 correct
+Dataset x, id 3 correct
+Dataset x, id 4 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'ruby'}]
+  Actual: [{'required': 'yes', 'filename': 'ruby'}, {'required': 'yes', 'filename': 'program.rb'}]
+Dataset x, id 5 correct
+Dataset x, id 6 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'java'}, {'required': 'yes', 'filename': 'application.jar'}]
+Dataset x, id 7 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'exec'}, {'required': 'yes', 'filename': 'sh'}]
+Dataset x, id 8 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'source'}, {'required': 'yes', 'filename': 'sh'}]
+Dataset x, id 9 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}, {'required': 'yes', 'filename': 'echo'}]
+Dataset x, id 10 correct
+Dataset x, id 11 correct
+Dataset x, id 12 correct
+Dataset x, id 13 correct
+Dataset x, id 14 correct
+Dataset x, id 15 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'script'}]
+  Actual: [{'required': 'yes', 'filename': './script.sh'}]
+Dataset x, id 16 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'bash'}]
+  Actual: [{'required': 'yes', 'filename': 'bash'}, {'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 17 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'python'}]
+  Actual: [{'required': 'yes', 'filename': 'python'}, {'required': 'yes', 'filename': 'script.py'}]
+Dataset x, id 18 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'ruby'}]
+  Actual: [{'required': 'yes', 'filename': 'ruby'}, {'required': 'yes', 'filename': 'program.rb'}]
+Dataset x, id 19 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'node'}]
+  Actual: [{'required': 'yes', 'filename': 'node'}, {'required': 'yes', 'filename': 'app.js'}]
+Dataset x, id 20 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'java'}, {'required': 'yes', 'filename': 'application.jar'}]
+Dataset x, id 21 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'exec'}, {'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 22 NOT correct
+  Expected: [{'required': 'no', 'filename': ''}]
+  Actual: [{'required': 'yes', 'filename': 'source'}, {'required': 'yes', 'filename': 'file.sh'}]
+Dataset x, id 23 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': './file.sh'}]
+Dataset x, id 24 correct
+Dataset x, id 25 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'perl'}]
+  Actual: [{'required': 'yes', 'filename': 'perl'}, {'required': 'yes', 'filename': 'script.pl'}]
+Dataset x, id 26 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'php'}]
+  Actual: [{'required': 'yes', 'filename': 'php'}, {'required': 'yes', 'filename': 'script.php'}]
+Dataset x, id 27 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}, {'required': 'yes', 'filename': 'script.sh'}]
+Dataset x, id 28 correct
+Dataset x, id 29 correct
+Dataset x, id 30 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': 'sh'}]
+Dataset x, id 31 correct
+Dataset x, id 32 correct
+Dataset x, id 33 correct
+Dataset x, id 34 correct
+Dataset x, id 35 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'java'}]
+  Actual: [{'required': 'yes', 'filename': 'java'}, {'required': 'yes', 'filename': 'application.jar'}]
+Dataset x, id 36 NOT correct
+  Expected: [{'required': 'yes', 'filename': 'file.sh'}]
+  Actual: [{'required': 'yes', 'filename': '.'}]
+----- Accuracy: 15/36 (41.67%) -----
+----- Final Results -----
+OsGuard-r r accuracy on dataset r_data.csv: 29/35 (82.86%)
+OsGuard-r r accuracy on dataset w_data.csv: 32/47 (68.09%)
+OsGuard-r r accuracy on dataset x_data.csv: 9/36 (25.00%)
+OsGuard-r-fs r accuracy on dataset r_data.csv: 35/35 (100.00%)
+OsGuard-r-fs r accuracy on dataset w_data.csv: 28/47 (59.57%)
+OsGuard-r-fs r accuracy on dataset x_data.csv: 17/36 (47.22%)
+OsGuard-w w accuracy on dataset r_data.csv: 34/35 (97.14%)
+OsGuard-w w accuracy on dataset w_data.csv: 41/47 (87.23%)
+OsGuard-w w accuracy on dataset x_data.csv: 35/36 (97.22%)
+OsGuard-w-fs w accuracy on dataset r_data.csv: 34/35 (97.14%)
+OsGuard-w-fs w accuracy on dataset w_data.csv: 46/47 (97.87%)
+OsGuard-w-fs w accuracy on dataset x_data.csv: 34/36 (94.44%)
+OsGuard-x x accuracy on dataset r_data.csv: 27/35 (77.14%)
+OsGuard-x x accuracy on dataset w_data.csv: 27/47 (57.45%)
+OsGuard-x x accuracy on dataset x_data.csv: 14/36 (38.89%)
+OsGuard-x-fs x accuracy on dataset r_data.csv: 32/35 (91.43%)
+OsGuard-x-fs x accuracy on dataset w_data.csv: 45/47 (95.74%)
+OsGuard-x-fs x accuracy on dataset x_data.csv: 16/36 (44.44%)
+OsGuard-rwx r accuracy on dataset r_data.csv: 30/35 (85.71%)
+OsGuard-rwx r accuracy on dataset w_data.csv: 34/47 (72.34%)
+OsGuard-rwx r accuracy on dataset x_data.csv: 6/36 (16.67%)
+OsGuard-rwx w accuracy on dataset r_data.csv: 30/35 (85.71%)
+OsGuard-rwx w accuracy on dataset w_data.csv: 38/47 (80.85%)
+OsGuard-rwx w accuracy on dataset x_data.csv: 14/36 (38.89%)
+OsGuard-rwx x accuracy on dataset r_data.csv: 31/35 (88.57%)
+OsGuard-rwx x accuracy on dataset w_data.csv: 32/47 (68.09%)
+OsGuard-rwx x accuracy on dataset x_data.csv: 13/36 (36.11%)
+OsGuard-rwx-fs r accuracy on dataset r_data.csv: 34/35 (97.14%)
+OsGuard-rwx-fs r accuracy on dataset w_data.csv: 28/47 (59.57%)
+OsGuard-rwx-fs r accuracy on dataset x_data.csv: 15/36 (41.67%)
+OsGuard-rwx-fs w accuracy on dataset r_data.csv: 35/35 (100.00%)
+OsGuard-rwx-fs w accuracy on dataset w_data.csv: 39/47 (82.98%)
+OsGuard-rwx-fs w accuracy on dataset x_data.csv: 35/36 (97.22%)
+OsGuard-rwx-fs x accuracy on dataset r_data.csv: 33/35 (94.29%)
+OsGuard-rwx-fs x accuracy on dataset w_data.csv: 46/47 (97.87%)
+OsGuard-rwx-fs x accuracy on dataset x_data.csv: 15/36 (41.67%)
